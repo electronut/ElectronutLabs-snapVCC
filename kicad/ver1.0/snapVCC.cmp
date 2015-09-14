@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 August 18, Tuesday 16:24:14
+
+BeginCmp
+TimeStamp = /55CD8C46;
+Reference = BT1;
+ValeurCmp = KEY967;
+IdModule  = snapVCC_lib:KEY967;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD8311;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD834B;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD8375;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = snapVCC_lib:0402-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD83DB;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = snapVCC_lib:0402-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD8EE8;
+Reference = C5;
+ValeurCmp = 10pF;
+IdModule  = snapVCC_lib:0402-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD84AD;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = snapVCC_lib:0402-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD84ED;
+Reference = C7;
+ValeurCmp = 22uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD851C;
+Reference = C8;
+ValeurCmp = 22uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD854D;
+Reference = C9;
+ValeurCmp = 22uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD9368;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD712E;
+Reference = L1;
+ValeurCmp = 1uH;
+IdModule  = snapVCC_lib:SMD-L-4040;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD8E8E;
+Reference = P1;
+ValeurCmp = CONN_01X03;
+IdModule  = snapVCC_lib:3P-1.27;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD8F20;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = snapVCC_lib:H2-2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CEFE20;
+Reference = Q1;
+ValeurCmp = Q_PMOS_GSD;
+IdModule  = snapVCC_lib:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD7180;
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD7275;
+Reference = R2;
+ValeurCmp = 1M;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD7246;
+Reference = R3;
+ValeurCmp = 111K;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD721F;
+Reference = R4;
+ValeurCmp = 68K;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD71F6;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CD703F;
+Reference = U1;
+ValeurCmp = TPS63060;
+IdModule  = snapVCC_lib:QFN-10_PAD-8;
+EndCmp
+
+EndListe
