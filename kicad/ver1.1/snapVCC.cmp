@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 23, Wednesday 08:55:29
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 24, Thursday 07:08:18
 
 BeginCmp
 TimeStamp = /56012F4C;
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /560149B5;
 Reference = P1;
 ValeurCmp = CONN_01X03;
-IdModule  = snapVCC_lib:3P-1.27;
+IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
