@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/mahesh/Documents/electronics/projects/snapVCC/kicad/ver1.1/snapVCC.sch)
-    (date "2015 September 27, Sunday 16:23:40")
+    (date "2015 September 30, Wednesday 15:05:51")
     (tool "Eeschema (2015-05-03 BZR 5637)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -142,7 +142,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 560149B5))
     (comp (ref R4)
-      (value 3.1k)
+      (value 7.1k)
       (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Characteristics) "Resistor, Chip, 1/16W, 1%")
@@ -178,20 +178,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part INDUCTOR)
       (fields
         (field (name Reference) L)
@@ -214,6 +200,20 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part Q_PMOS_GSD)
       (description "Transistor P-MOSFET (general)")
       (fields
@@ -234,16 +234,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib snapVCC) (part TPS560200)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) TPS560200))
-      (pins
-        (pin (num 1) (name EN) (type input))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name PH) (type output))
-        (pin (num 4) (name VIN) (type input))
-        (pin (num 5) (name VSENSE) (type output))))
     (libpart (lib conn) (part CONN_01X02)
       (footprints
         (fp Pin_Header_Straight_1X02)
@@ -268,14 +258,24 @@
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive)))))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib snapVCC) (part TPS560200)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TPS560200))
+      (pins
+        (pin (num 1) (name EN) (type input))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name PH) (type output))
+        (pin (num 4) (name VIN) (type input))
+        (pin (num 5) (name VSENSE) (type output)))))
   (libraries
-    (library (logical snapVCC)
-      (uri /Users/mahesh/Documents/electronics/projects/snapVCC/kicad/ver1.1/snapVCC.lib))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib")))
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
+    (library (logical snapVCC)
+      (uri /Users/mahesh/Documents/electronics/projects/snapVCC/kicad/ver1.1/snapVCC.lib)))
   (nets
     (net (code 1) (name "Net-(L1-Pad1)")
       (node (ref U1) (pin 3))
