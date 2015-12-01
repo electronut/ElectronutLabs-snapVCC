@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 30, Wednesday 15:10:06
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 December 01, Tuesday 09:33:07
 
 BeginCmp
 TimeStamp = /56012F4C;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /56013D93;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = snapVCC_lib:0402-CAP;
+IdModule  = snapVCC_lib:0402-seeed;
 EndCmp
 
 BeginCmp
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /56016668;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = snapVCC_lib:LED-0603;
+IdModule  = snapVCC_lib:SML-P11_LED_0402;
 EndCmp
 
 BeginCmp
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /5601357D;
 Reference = U1;
 ValeurCmp = TPS560200;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+IdModule  = snapVCC_lib:SOT-23-5;
 EndCmp
 
 EndListe
