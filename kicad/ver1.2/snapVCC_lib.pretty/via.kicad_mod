@@ -1,0 +1,10 @@
+(module snapVCC_lib:via (layer F.Cu) (tedit 55CB8BAC)
+  (fp_text reference via (at 0 -0.508) (layer F.SilkS) hide
+    (effects (font (size 0.4 0.4) (thickness 0.08)))
+  )
+  (fp_text value VAL** (at 0 0.508) (layer F.SilkS) hide
+    (effects (font (size 0.4 0.4) (thickness 0.08)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+    (zone_connect 2))
+)
