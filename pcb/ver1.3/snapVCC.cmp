@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 December 01, Tuesday 09:33:07
+
+BeginCmp
+TimeStamp = /56012F4C;
+Reference = BT1;
+ValeurCmp = Battery Holder;
+IdModule  = snapVCC_lib:KEY967;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013D58;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013D93;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = snapVCC_lib:0402-seeed;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013DB4;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013DDC;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = snapVCC_lib:0603-CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /56016668;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = snapVCC_lib:SML-P11_LED_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /56020005;
+Reference = J1;
+ValeurCmp = Jumper Shunt;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013F11;
+Reference = L1;
+ValeurCmp = 10uH;
+IdModule  = snapVCC_lib:L-4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /560149B5;
+Reference = P1;
+ValeurCmp = CONN_01X03;
+IdModule  = snapVCC_lib:PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5601496D;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = snapVCC_lib:H2-2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /56012F07;
+Reference = Q1;
+ValeurCmp = IRLML9301TRPbF;
+IdModule  = snapVCC_lib:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013E03;
+Reference = R1;
+ValeurCmp = 62k;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013E3C;
+Reference = R2;
+ValeurCmp = 43k;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /56013E65;
+Reference = R3;
+ValeurCmp = 20k;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /56016631;
+Reference = R4;
+ValeurCmp = 7.1k;
+IdModule  = snapVCC_lib:0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /5601357D;
+Reference = U1;
+ValeurCmp = TPS560200;
+IdModule  = snapVCC_lib:SOT-23-5;
+EndCmp
+
+EndListe
