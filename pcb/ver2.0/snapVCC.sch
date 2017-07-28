@@ -416,4 +416,6 @@ Wire Wire Line
 	7425 4800 7425 5100
 Connection ~ 7425 5100
 NoConn ~ 7200 4600
+Text Notes 6910 4810 2    60   ~ 0
+3.3V
 $EndSCHEMATC

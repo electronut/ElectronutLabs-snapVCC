@@ -290,7 +290,6 @@ F 3 "" H 8400 4150 60  0000 C CNN
 	1    8400 4150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7200 4700
 Connection ~ 3150 5000
 Wire Wire Line
 	3150 4000 3150 5000
@@ -302,9 +301,6 @@ Wire Wire Line
 	6300 3900 5700 3900
 Wire Wire Line
 	6300 5100 6300 3900
-Connection ~ 7700 4600
-Wire Wire Line
-	7200 4600 7700 4600
 Connection ~ 7700 5100
 Wire Wire Line
 	6300 5100 7700 5100
@@ -393,11 +389,6 @@ Connection ~ 3500 3700
 Wire Wire Line
 	3500 4840 3500 5000
 Connection ~ 3500 5000
-Wire Wire Line
-	7200 4800 7445 4800
-Wire Wire Line
-	7445 4800 7445 5100
-Connection ~ 7445 5100
 $Comp
 L TEST TP1
 U 1 1 59783D45
@@ -412,4 +403,17 @@ $EndComp
 Wire Wire Line
 	3500 4445 3500 4540
 Connection ~ 3500 3925
+Wire Wire Line
+	7200 4700 7425 4700
+Wire Wire Line
+	7425 4700 7425 4600
+Wire Wire Line
+	7425 4600 7700 4600
+Connection ~ 7700 4600
+Wire Wire Line
+	7200 4800 7425 4800
+Wire Wire Line
+	7425 4800 7425 5100
+Connection ~ 7425 5100
+NoConn ~ 7200 4600
 $EndSCHEMATC
