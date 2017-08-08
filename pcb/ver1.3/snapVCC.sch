@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:snapVCC-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -408,11 +409,11 @@ $EndComp
 NoConn ~ 6850 4650
 NoConn ~ 6850 4750
 Wire Wire Line
-	3500 4000 3500 3700
+	3500 3700 3500 4050
 Connection ~ 3500 3700
 Wire Wire Line
 	3500 4850 3500 5000
 Connection ~ 3500 5000
 Wire Wire Line
-	3500 4400 3500 4550
+	3500 4350 3500 4550
 $EndSCHEMATC
