@@ -1,12 +1,7 @@
-> **Note**: This repository has been moved to our GitLab page on May 2019, and will not receive any updates or be monitored. Please follow this link to go to the new repository: https://gitlab.com/electronutlabs-public/ElectronutLabs-snapVCC
-
 # snapVCC
 
 ![](snapVCC.jpg)
 
-# License
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">snapVCC</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://electronut.in/" property="cc:attributionName" rel="cc:attributionURL">Mahesh Venkitachalam</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 ## Description
 
@@ -41,6 +36,23 @@ It’s designed to snap right on to a 9 V battery and give you 3.3 V or 5 V powe
 ## Dimensions: 
 25.9 mm x 17.3 mm x 10.2 mm
 
-## Version: 
-2.1 
+## Datasheet and Schematic
+* <i class="fa fa-file fa-1x" style="color: black"></i> [Datasheet](snapVCC-datasheet.pdf)
+* <i class="fa fa-file fa-1x" style="color: black"></i> [Schematic](snapVCC-schematic.pdf)
+
+## Buy a SnapVCC!
+
+SnapVCC is available for purchase from our [Tindie store][1]. Please email us at **info@electronut.in** if you have any questions.
+
+[1]: https://www.tindie.com/stores/ElectronutLabs/
+
+
+## Code Repository
+
+You can find all code and design files related to SnapVCC in this [repository](https://gitlab.com/electronutlabs-public/ElectronutLabs-snapVCC).
+
+## About Electronut Labs
+
+**Electronut Labs** is an Embedded Systems company based in Bangalore, India. More 
+information at our [website](https://electronut.in).
 
